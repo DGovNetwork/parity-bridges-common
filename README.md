@@ -34,8 +34,8 @@ Once this is configured you can build and test the repo as follows:
 ```
 git clone https://github.com/paritytech/parity-bridges-common.git
 cd parity-bridges-common
-cargo build --all
-cargo test --all
+cargo +nightly build --all
+cargo +nightly test --all
 ```
 
 If you need more information about setting up your development environment Substrate's
